@@ -1,0 +1,12 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  id: test-myst-quarto-gfm
+  toc:
+    - file: 06-Get-Format-Plot-hydrodata_COMPLETE.md
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+site:
+  template: book-theme
