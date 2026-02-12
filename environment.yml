@@ -1,0 +1,14 @@
+name: test-myst-quarto-gfm
+channels:
+  - conda-forge
+  - r
+dependencies:
+  - jupyter
+  - python=3.10
+  - r-irkernel
+  - r-base=4.4.2
+  - r-quarto
+  - pip
+  - pip:
+    - jupyter-book==2.0.0b0
+    - jupytext # don't need this for now but may be useful later (https://jupytext.readthedocs.io/en/latest/)
